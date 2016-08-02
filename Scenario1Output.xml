@@ -1,0 +1,18 @@
+<Trips>
+	<Trip ID='1234'>
+		<Traveler ID='2'  FirstName='Bob' LastName='Doe'>
+			<Comment>I am here</Comment>
+			<Traveler ID='1' FirstName='John' LastName='Doe'>
+				<Comment>Need Kosher meal</Comment>
+			</Traveler>
+			<Traveler ID='5' FirstName='Jane' LastName='Doe'>
+			</Traveler>
+		</Traveler>
+		<Traveler ID='3' FirstName='Jane' LastName='Johnson'>
+		</Traveler>
+	</Trip>
+	<Trip ID='2345'>
+		<Traveler ID='4' FirstName='Jack' LastName='Ripper'>
+		</Traveler>
+	</Trip>
+</Trips>
