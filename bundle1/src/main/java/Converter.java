@@ -9,7 +9,7 @@ public class Converter {
 	String tripId = "";
 	ArrayList <String> list = new ArrayList<String>();
 	
-	public String convert (ArrayList<ArrayList<String>> listOLists) throws Exception{
+	public String convert (ArrayList<ArrayList<String>> listOLists) throws Exception {
 	  	trips += "<Trips>\n";
 		
 		//Find all trip IDs

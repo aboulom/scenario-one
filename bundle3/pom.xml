@@ -7,14 +7,12 @@
   </parent>
   
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>com.opensourcearchitect.scenario-one</groupId>
-  <artifactId>bundle</artifactId>
+  <artifactId>bundle3</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   
   <build>
-    <defaultGoal>install</defaultGoal>
-
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -24,20 +22,18 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
       </plugin>
-
       <!-- to generate the MANIFEST-FILE of the bundle -->
-      <plugin>
+     <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <instructions>
-            <Bundle-SymbolicName>bundle</Bundle-SymbolicName>
-            <Private-Package>com.opensourcearhcitect.*</Private-Package>
+          	<Bundle-SymbolicName>com.opensourcearchitect.scenario-one.bundle3</Bundle-SymbolicName>
+            <Private-Package>com.opensourcearchitect.scenario-one.*</Private-Package>
             <Import-Package>*</Import-Package>
           </instructions>
         </configuration>
       </plugin>
     </plugins>
   </build>
-
 </project>
